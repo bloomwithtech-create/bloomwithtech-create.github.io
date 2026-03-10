@@ -1,0 +1,3 @@
+theme: jekyll-theme-minimal # Replace with your theme name if different
+title: Half-QWERTY-typing
+description: This project is a web based typing training platform designed for users of a one handed Half QWERTY keyboard. Unlike traditional typing sites, it teaches mirrored key switching using a hot key. The system will track accuracy, speed, and switching behavior while supporting user accounts and progress tracking for long term skill development.
