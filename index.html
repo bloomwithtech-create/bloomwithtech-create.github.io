@@ -1,6 +1,106 @@
 <!DOCTYPE html>
-<html>
-  <body>
-    <h1>Hello GitHub 🚀</h1>
-  </body>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Half-QWERTY Typing Class</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background: #f5f7fb;
+      color: #111;
+      line-height: 1.6;
+    }
+
+    main {
+      max-width: 840px;
+      margin: 0 auto;
+      background: #ffffff;
+      border: 1px solid #d8dee4;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+      padding: 2rem;
+    }
+
+    h1,
+    h2,
+    h3 {
+      color: #0f172a;
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    pre {
+      padding: 1rem;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 0.75rem;
+      overflow-x: auto;
+    }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    .note {
+      padding: 1rem;
+      background: #eff6ff;
+      border-left: 4px solid #3b82f6;
+      margin-bottom: 1.5rem;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Half-QWERTY Typing Class</h1>
+    <p>Welcome to the Half-QWERTY one-handed typing page. This site presents the AutoHotkey script from the <code>halfqwerty-master</code> folder and explains how to use it as a typing tool.</p>
+
+    <div class="note">
+      <strong>Tip:</strong> To try this on Windows, download <a href="/halfqwerty-master/halfkeyboard.ahk">halfkeyboard.ahk</a> and run it with AutoHotkey installed.
+    </div>
+
+    <h2>What this does</h2>
+    <p>The script remaps the right-hand side of your keyboard to a one-handed "half QWERTY" layout using the Space key as a modifier. It is useful for one-handed typing practice and keyboard accessibility.</p>
+
+    <h2>How to use it</h2>
+    <ol>
+      <li>Install AutoHotkey from <a href="https://www.autohotkey.com/">autohotkey.com</a>.</li>
+      <li>Download <a href="/halfqwerty-master/halfkeyboard.ahk">halfkeyboard.ahk</a>.</li>
+      <li>Run the script by double-clicking it.</li>
+      <li>Hold <strong>Space</strong> and press a right-side letter to type the mirrored character.</li>
+    </ol>
+
+    <h2>Half-QWERTY script excerpt</h2>
+    <pre><code>#SingleInstance, force
+; Half-QWERTY: One-handed Typing - version 3a
+; http://www.autohotkey.com/forum/viewtopic.php?p=228783#228783
+;
+; HalfKeyboard invented by Matias Corporation between 1992 and 1996
+; Originally coded in AutoHotkey by jonny in 2004
+; Many thanks to Chris for helping him out with this script.
+; Capslock hacks and `~ remap to '" by Watcher
+; This implementation was done by mbirth in 2007
+;</code></pre>
+
+    <h2>More resources</h2>
+    <p>The full script and supporting images are stored in the <code>halfqwerty-master</code> folder. You can also view the project README <a href="/halfqwerty-master/README.md">here</a>.</p>
+
+    <h2>Notes</h2>
+    <p>If you want the website to be a full interactive typing lesson, I can also help build a simple practice page with on-screen keys and typing drills.</p>
+  </main>
+</body>
+
 </html>
